@@ -17,13 +17,19 @@
   font-weight: bold;
 }
 
+.zoom-avatar {
+  transition: transform 1.0s ease;  
+}
+.zoom-avatar:hover {
+  transform: scale(2.00);
+}
 
 .zoom {
-  transition: transform 0.6s ease;  
+  transition: transform 1.0s ease;  
 }
 .zoom:hover {
-  color: white;
-  transform: scale(1.20);
+  color: orange;
+  transform: scale(1.40);
 }
 
 .logo {
@@ -85,5 +91,30 @@ aside ul li {
 aside ul li:hover, aside ul a:hover {
   color: #eb5959;
   text-decoration: none;
+  transform: scale(1.05);
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  padding-top: 7px;
+  padding-bottom: 4px;
+  z-index: 10000;
+}
+
+.huge {
+  font-size: 40px;
+  float: left;
+  background-color: rgb(255, 223, 82);
+}
+
+.size80 {
+  width: 250px;
+  border-radius: 50%;
+  transition: transform 1.0s ease;
+}
+
+.size80:hover {
+  box-shadow: 1px 1px 105px rgb(0, 0, 0);
   transform: scale(1.05);
 }
