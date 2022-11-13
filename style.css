@@ -1,4 +1,4 @@
-.bgGitler {
+.bgJackFresco {
   background: url(https://gradients.app/public/img/gradients_app.png) no-repeat;
   background-size: 100%;
 }
@@ -40,23 +40,22 @@
   box-shadow: 1px 1px 105px rgb(0, 0, 0);
   transform: scale(1.05);
 }
-.gitler {
+.JackFrescoNav {
   margin-left: 60rem;
   opacity: 0.01;
   transition: .4s;
 }
-.gitler:hover {opacity: 1;}
+.JackFrescoNav:hover {opacity: 1;}
 .home-text {
   font-size: 25px;
-  color: rgb(0, 0, 0);
-  background: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
 }
-.gitlerQuotation {
+.JackFrescoQuotation {
   text-decoration: none;
   float: right;
-  font-size: 50px; 
+  font-size: 40px; 
 }
-.gitlerQuotation:hover {color: rgb(0, 0, 0); cursor: text;}
+.JackFrescoQuotation:hover {color: rgb(255, 255, 255); cursor: text;}
 
 .about-text-baobab {
   text-decoration: underline;
