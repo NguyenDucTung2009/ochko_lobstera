@@ -1,5 +1,5 @@
 .bgGitler {
-  background: url(https://c4.wallpaperflare.com/wallpaper/805/354/396/1920x1080-px-adolf-hitler-dictators-history-national-socialism-nazi-simple-background-entertainment-tv-series-hd-art-wallpaper-preview.jpg) no-repeat;
+  background: url(https://wallpaperaccess.com/full/4485643.jpg) no-repeat;
   background-size: 100%;
 }
 .rounded-img {
@@ -48,14 +48,15 @@
 .gitler:hover {opacity: 1;}
 .home-text {
   font-size: 25px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.5);
 }
 .gitlerQuotation {
   text-decoration: none;
   float: right;
   font-size: 50px; 
 }
-.gitlerQuotation:hover {color: white; cursor: text;}
+.gitlerQuotation:hover {color: rgb(0, 0, 0); cursor: text;}
 
 .about-text-baobab {
   text-decoration: underline;
