@@ -1,133 +1,69 @@
+.bgGitler {
+  background: url(https://c4.wallpaperflare.com/wallpaper/805/354/396/1920x1080-px-adolf-hitler-dictators-history-national-socialism-nazi-simple-background-entertainment-tv-series-hd-art-wallpaper-preview.jpg) no-repeat;
+  background-size: 100%;
+}
 .rounded-img {
   border-radius: 50%;
   padding: 10px;
   transition: transform 0.6s ease;
 }
-
 .rounded-img:hover {
   box-shadow: 1px 1px 25px rgb(0, 0, 0);
   transform: scale(1.05);
 }
-.bold {
-  font-weight: bold;
-}
+.bold {font-weight: bold;}
 
-.nickname {
-  font-size: 30px;
-  font-weight: bold;
-}
+.zoom-avatar {transition: transform 1.0s ease;  }
 
-.zoom-avatar {
-  transition: transform 1.0s ease;  
-}
-.zoom-avatar:hover {
-  transform: scale(2.00);
-}
+.zoom-avatar:hover {transform: scale(10.00);}
 
-.zoom {
-  transition: transform 1.0s ease;  
-}
+.zoom {transition: transform 1.0s ease;  }
+
 .zoom:hover {
   color: orange;
   transform: scale(1.40);
 }
-
-.logo {
-  display: flex;
-}
-
-.avatar {
-  width: 60px;
-}
-/* .size {
-  font-size: 100px;
-} */
-
-
-.info {
-  display:contents;
-}
-
-.main {
-  background-color: rgb(0, 0, 0);
-  margin-left: px;
-}
-
-aside {
-  float: left;
-  background-color: #353535;
-  width: 15%;
-  padding: 10px;
-  height: 100vh;
-  color: #fff;
-  border-right: 5px solid #4d4d4d;
-}
-
-aside img {
-  width: 50px;
-  float: left;
-}
-
-aside .leftlogo {
-  font-size: 37px;
-  margin-left: 10px;
-  font-weight: bold;
-}
-
-aside h4 {
-  margin: 10px;
-  text-align: center;
-}
-
-aside ul {list-style: none}
-
-aside ul li {
-  color: #fff;
-  display: block;
-  margin-top: 10px;
-  transition: transform .6s ease;
-}
-
-aside ul li:hover, aside ul a:hover {
-  color: #eb5959;
-  text-decoration: none;
-  transform: scale(1.05);
-}
-
-.fixed {
+.sticky {
   position: sticky;
   top: 0;
   padding-top: 7px;
   padding-bottom: 4px;
   z-index: 10000;
 }
-
-.huge {
-  font-size: 40px;
-  float: left;
-  background-color: rgb(255, 223, 82);
-}
-
-.size80 {
+.about_img {
+  height: 250px ;
   width: 250px;
   border-radius: 50%;
   transition: transform 1.0s ease;
 }
-
-.size80:hover {
+.about_img:hover {
   box-shadow: 1px 1px 105px rgb(0, 0, 0);
   transform: scale(1.05);
 }
-.flex {
-  display: flex;
-}
-
 .gitler {
   margin-left: 60rem;
   opacity: 0.01;
-  transition: .5s;
+  transition: .4s;
 }
+.gitler:hover {opacity: 1;}
+.home-text {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.gitlerQuotation {
+  text-decoration: none;
+  float: right;
+  font-size: 50px; 
+}
+.gitlerQuotation:hover {color: white; cursor: text;}
 
-.gitler:hover {
-  opacity: 1;
+.about-text-baobab {
+  text-decoration: underline;
+  color: white;
+  font-size: 20px;
+  margin-right: 5px; 
+}
+.nickname {
+  font-size: 30px;
+  text-align: bold;
 }
